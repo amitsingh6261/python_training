@@ -1,0 +1,13 @@
+class area:
+    def seta(self):
+        self.a=5.5
+        return(self.a)
+class circle:
+    def display(self):
+        self.r=area.seta(self)
+        self.x=3.14*self.r*self.r
+        print("area of circle=",self.x)
+
+obj=circle()
+obj.display()
+        
